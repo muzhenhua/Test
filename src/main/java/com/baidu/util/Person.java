@@ -8,6 +8,8 @@ public class Person {
 	
 	private String pwd;
 	
+	private String dd;
+	
 
 	public String getPwd() {
 		return pwd;
