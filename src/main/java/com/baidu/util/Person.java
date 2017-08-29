@@ -4,6 +4,8 @@ public class Person {
 
 	private String name;
 	
+	private String ll;
+	
 	private String pwd;
 	
 
