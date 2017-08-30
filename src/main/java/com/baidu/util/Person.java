@@ -32,6 +32,23 @@ public class Person {
 		return "Person [name=" + name + ", ll=" + ll + ", pwd=" + pwd + ", dd="
 				+ dd + "]";
 	}
+
+	public String getLl() {
+		return ll;
+	}
+
+	public void setLl(String ll) {
+		this.ll = ll;
+	}
+
+	public String getDd() {
+		return dd;
+	}
+
+	public void setDd(String dd) {
+		this.dd = dd;
+	}
+	
 	
 	//nihaokakak
 	
