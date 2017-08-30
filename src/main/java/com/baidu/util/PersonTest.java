@@ -99,7 +99,7 @@ public class PersonTest {
 		person.setPwd("123");
 		person.setDd("nihao");
 		Student student = new Student();
-		BeanUtils.copyProperties(student, person);
+		BeanUtils.copyProperties(student, person);//第一个值是被赋值的对象，第二个是赋值的对象
 		System.out.println(student);
         
 	}
